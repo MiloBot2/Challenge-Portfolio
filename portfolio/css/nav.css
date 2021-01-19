@@ -1,0 +1,103 @@
+.navBar * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li, a, button {
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    margin-bottom: 20px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: #eb4034;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.navBar button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navBar button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.navBar a.icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navBar li {
+        display: none;
+    }
+    
+    #home {
+        display: inline-block;
+    }
+    
+    .navBar a.icon {
+        float: right;
+        display: block;
+    }
+    
+    .navBar {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .navBar {
+        margin-bottom: 20px;
+    }
+}
+
+.nav_collapsed li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10%;
+    color: #eb4034;
+    background-color: #23272a;
+}
+
+.nav_collapsed a {
+    color: #eb4034;
+}
+
+.nav_collapsed li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_collapsed li a:hover {
+    color: rgba(0, 136, 169, 0.8);
+}
