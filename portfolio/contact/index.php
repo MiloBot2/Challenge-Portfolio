@@ -1,9 +1,7 @@
 <?php
 $message = null;
 if($_SERVER['REQUEST_METHOD'] == "POST"){
-    
     $message = "Bedankt voor je bericht " . $_POST['contact-name'] .  "! Ik kom zo snel mogelijk bij je terug.";
-    
 }
 
 ?>
