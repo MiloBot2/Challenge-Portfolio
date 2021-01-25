@@ -3,11 +3,11 @@
     <head>
         <!--Site Identity-->
         <title>Interests | Milo's Website</title>
-        <link rel="icon" type="image/png" href="https://lumon.dev/projects/milo/assets/img/milo_logo.png">
+        <link rel="icon" type="image/png" href="/portfolio/assets/img/milo_logo.png">
         
         <!--Internal Imports-->
-        <link rel="stylesheet" href="https://lumon.dev/projects/milo/assets/css/interests.css">
-        <script src="https://lumon.dev/projects/milo/assets/js/main.js"></script>
+        <link rel="stylesheet" href="/portfolio/assets/css/interests.css">
+        <script src="/portfolio/assets/js/main.js"></script>
         
         <?php
             include("../protected/pagebase.php");
@@ -26,7 +26,7 @@
                         </div>
                         <div class='card-content'>
                             <img alt='Icon' width='90' height='90' src='https://i.pinimg.com/originals/0f/8b/28/0f8b2870896edcde8f6149fe2733faaf.jpg'>
-                            <p><span>Ik vind het leuk om in mijn vrije tijd te werken aan projecten, zoals de projecten op mijn <a style="color: blue;" href="/projects">Projects</a> pagina.</span></p>
+                            <p><span>Ik vind het leuk om in mijn vrije tijd te werken aan projecten, zoals de projecten op mijn <a style="color: blue;">Projects</a> pagina.</span></p>
                         </div>
                     </div>
                     <div style="align-self: flex-end;" class='card'>
@@ -44,7 +44,7 @@
                         </div>
                         <div class='card-content'>
                             <img alt='Icon' width='90' height='90' src='https://image.freepik.com/free-vector/piano-logo-template-design-illustration-abstract-piano-web-icons-logo_72830-8.jpg'>
-                            <p><span>Piano spelen is ook een iets wat ik graag doe, en ik ben ook veel bezig met het maken van muziek.</span></p>
+                            <p><span>Piano spelen is ook iets wat ik graag doe en soms speel of maak ik muziek.</span></p>
                         </div>
                     </div>
                 </div>

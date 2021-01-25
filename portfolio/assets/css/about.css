@@ -1,0 +1,21 @@
+.info {
+    margin: auto;
+    margin-top: 50px;
+    padding: 18px;
+    border-radius: 12px;
+    border: 2px solid #99aab5;
+    text-align: center;
+    color: #23272a;
+    width: 70%;
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 95%;
+    }
+    
+    .info {
+        width: 90%;
+    }
+}

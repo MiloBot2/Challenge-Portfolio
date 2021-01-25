@@ -11,11 +11,11 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <head>
         <!--Site Identity-->
         <title>Contact | Milo's Website</title>
-        <link rel="icon" type="image/png" href="https://lumon.dev/projects/milo/assets/img/milo_logo.png">
+        <link rel="icon" type="image/png" href="/portfolio/assets/img/milo_logo.png">
         
         <!--Internal Imports-->
-        <link rel="stylesheet" href="https://lumon.dev/projects/milo/assets/css/contact.css">
-        <script src="https://lumon.dev/projects/milo/assets/js/main.js"></script>
+        <link rel="stylesheet" href="/portfolio/assets/css/contact.css">
+        <script src="/portfolio/assets/js/main.js"></script>
         
         <!--External Imports-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
