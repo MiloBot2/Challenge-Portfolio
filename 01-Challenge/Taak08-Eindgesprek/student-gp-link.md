@@ -4,4 +4,4 @@ Student : `Milo`
 
 Klas    : `2127861`
 
-Link    : [github_username.github.io](https://sites.lumon.dev/milo/v2/portfolio/)
+Link    : [milobot2-portfolio-website](https://sites.lumon.dev/milo/v2/portfolio/)
